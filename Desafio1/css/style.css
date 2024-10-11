@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    justify-content: space-between;
+    padding: 30px;
+    font-size: 1.5rem;
+}
+li{
+    color: aliceblue;
+    list-style-type:none;
+}
+.logo{
+    color: aliceblue;
+}
+ul{
+    display: flex;
+    align-items:end; 
+    gap: 30px;  
+}
+h1{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 2.5rem;
+    padding-bottom: 25px;
+}
+img{
+    width: 200px;
+    margin: 5px;
+}
+.Cima{
+    display: flex;
+    justify-content: center;
+}
+.Baixo{
+    display: flex;
+    justify-content: center;
+}
+p{
+    margin-left: 5px;
+}
